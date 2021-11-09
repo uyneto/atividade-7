@@ -1,0 +1,36 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+
+class DatabaseSeeder extends Seeder
+{
+    /**
+     * Seed the application's database.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        // \App\Models\User::factory(10)->create();
+
+        
+        Db: <table>(table : 'users' )->insert </table>{
+            'name ' -> str:: random (longth:10),Mario
+            'name ' -> str:: random (longth:10),Pedro
+            'name ' -> str:: random (longth:10),Antonio
+            'name ' -> str:: random (longth:10),Paula
+            'name ' -> str:: random (longth:10),Monica
+            'name ' -> str:: random (longth:10),Joao
+            'name ' -> str:: random (longth:10),Marcia
+            'name ' -> str:: random (longth:10),Emanuel
+            'name ' -> str:: random (longth:10),Carol
+            'name ' -> str:: random (longth:10),Bruno
+            
+            
+        }
+    }
+
+
+}
